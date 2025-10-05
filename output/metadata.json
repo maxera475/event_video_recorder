@@ -1,0 +1,38 @@
+[
+    {
+        "event_type": "manual_trigger",
+        "timestamp": "2025-10-04T20:10:07.282692",
+        "gps_coordinates": {
+            "latitude": 28.643949,
+            "longitude": 77.095806
+        },
+        "filename": "20251004_201007_manual_trigger.mp4"
+    },
+    {
+        "event_type": "manual_trigger",
+        "timestamp": "2025-10-04T20:11:00.496898",
+        "gps_coordinates": {
+            "latitude": 28.750755,
+            "longitude": 77.003081
+        },
+        "filename": "20251004_201100_manual_trigger.mp4"
+    },
+    {
+        "event_type": "manual_trigger",
+        "timestamp": "2025-10-05T18:53:02.157075",
+        "gps_coordinates": {
+            "latitude": 28.692234,
+            "longitude": 77.106842
+        },
+        "filename": "20251005_185302_manual_trigger.mp4"
+    },
+    {
+        "event_type": "manual_trigger",
+        "timestamp": "2025-10-05T18:57:23.272483",
+        "gps_coordinates": {
+            "latitude": 28.68377,
+            "longitude": 77.002634
+        },
+        "filename": "20251005_185723_manual_trigger.mp4"
+    }
+]
