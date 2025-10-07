@@ -5,7 +5,7 @@ import random
 class MotionDetector:
     def __init__(self, min_area=500):
         self.previous_frame = None
-        self.min_area = min_area # Threshold to ignore small motions
+        self.min_area = min_area 
 
     def detect(self, frame):
         # 1. Prepare the frame

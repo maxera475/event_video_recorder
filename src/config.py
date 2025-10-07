@@ -1,9 +1,7 @@
-# Video settings
-# Change VIDEO_SOURCE from 0 to your video file's path
-VIDEO_SOURCE = "output/sample_video.mp4" # <--- CHANGE THIS
-FPS = 30.0 # Match this to your video's actual FPS if possible
-FRAME_WIDTH = 1280 # Match your video's resolution
-FRAME_HEIGHT = 720 # Match your video's resolution
+VIDEO_SOURCE = "output/sample_video.mp4"
+FPS = 30.0 
+FRAME_WIDTH = 1280 
+FRAME_HEIGHT = 720 
 
 # Event recording settings
 BUFFER_SECONDS = 5 

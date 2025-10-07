@@ -1,5 +1,3 @@
-# src/recorder.py
-
 import cv2
 import json
 import os
@@ -11,7 +9,6 @@ import numpy as np
 from src import config
 
 def save_metadata(event_data: Dict[str, Any]):
-    # This function remains the same
     if not os.path.exists(config.METADATA_FILE):
         with open(config.METADATA_FILE, 'w') as f:
             json.dump([], f)
@@ -23,7 +20,7 @@ def save_metadata(event_data: Dict[str, Any]):
         json.dump(metadata_list, f, indent=4)
 
 def _save_clip_thread(
-    full_clip_frames: List[np.ndarray], # <--- Receives all frames
+    full_clip_frames: List[np.ndarray], 
     event_data: Dict[str, Any]
 ):
     print(f"[{datetime.now()}] Saving clip for event...")
@@ -44,11 +41,11 @@ def _save_clip_thread(
     print(f"[{datetime.now()}] Successfully saved clip: {filepath}")
 
 def start_recording_session(
-    full_clip_frames: List[np.ndarray], # <--- Pass the full clip
+    full_clip_frames: List[np.ndarray], 
     event_data: Dict[str, Any]
 ):
     recording_thread = threading.Thread(
         target=_save_clip_thread,
-        args=(full_clip_frames, event_data) # <--- Update args
+        args=(full_clip_frames, event_data) 
     )
     recording_thread.start()
