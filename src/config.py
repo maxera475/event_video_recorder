@@ -1,12 +1,13 @@
 # Video settings
-VIDEO_SOURCE = 0  # 0 for the default webcam
-FPS = 20.0        # Assumed frames per second for the camera
-FRAME_WIDTH = 640
-FRAME_HEIGHT = 480
+# Change VIDEO_SOURCE from 0 to your video file's path
+VIDEO_SOURCE = "output/sample_video.mp4" # <--- CHANGE THIS
+FPS = 30.0 # Match this to your video's actual FPS if possible
+FRAME_WIDTH = 1280 # Match your video's resolution
+FRAME_HEIGHT = 720 # Match your video's resolution
 
 # Event recording settings
-BUFFER_SECONDS = 15 # Pre-event buffer duration in seconds
-POST_EVENT_SECONDS = 15 # Post-event recording duration
+BUFFER_SECONDS = 5 
+POST_EVENT_SECONDS = 5
 
 # Calculated values
 BUFFER_SIZE = int(BUFFER_SECONDS * FPS)

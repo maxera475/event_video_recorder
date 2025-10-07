@@ -1,38 +1,83 @@
 [
     {
-        "event_type": "manual_trigger",
-        "timestamp": "2025-10-04T20:10:07.282692",
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:11.543270",
         "gps_coordinates": {
-            "latitude": 28.643949,
-            "longitude": 77.095806
+            "latitude": 28.73671,
+            "longitude": 77.21902
         },
-        "filename": "20251004_201007_manual_trigger.mp4"
+        "filename": "20251007_201411_motion_detected.mp4"
     },
     {
-        "event_type": "manual_trigger",
-        "timestamp": "2025-10-04T20:11:00.496898",
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:11.892688",
         "gps_coordinates": {
-            "latitude": 28.750755,
-            "longitude": 77.003081
+            "latitude": 28.68715,
+            "longitude": 77.146666
         },
-        "filename": "20251004_201100_manual_trigger.mp4"
+        "filename": "20251007_201411_motion_detected.mp4"
     },
     {
-        "event_type": "manual_trigger",
-        "timestamp": "2025-10-05T18:53:02.157075",
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:12.243527",
         "gps_coordinates": {
-            "latitude": 28.692234,
-            "longitude": 77.106842
+            "latitude": 28.774992,
+            "longitude": 77.298529
         },
-        "filename": "20251005_185302_manual_trigger.mp4"
+        "filename": "20251007_201412_motion_detected.mp4"
     },
     {
-        "event_type": "manual_trigger",
-        "timestamp": "2025-10-05T18:57:23.272483",
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:12.628030",
         "gps_coordinates": {
-            "latitude": 28.68377,
-            "longitude": 77.002634
+            "latitude": 28.652309,
+            "longitude": 77.240316
         },
-        "filename": "20251005_185723_manual_trigger.mp4"
+        "filename": "20251007_201412_motion_detected.mp4"
+    },
+    {
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:12.998597",
+        "gps_coordinates": {
+            "latitude": 28.63573,
+            "longitude": 77.053383
+        },
+        "filename": "20251007_201412_motion_detected.mp4"
+    },
+    {
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:13.376812",
+        "gps_coordinates": {
+            "latitude": 28.481357,
+            "longitude": 77.361175
+        },
+        "filename": "20251007_201413_motion_detected.mp4"
+    },
+    {
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:14.478271",
+        "gps_coordinates": {
+            "latitude": 28.674251,
+            "longitude": 77.006855
+        },
+        "filename": "20251007_201414_motion_detected.mp4"
+    },
+    {
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:14.767344",
+        "gps_coordinates": {
+            "latitude": 28.480024,
+            "longitude": 77.085735
+        },
+        "filename": "20251007_201414_motion_detected.mp4"
+    },
+    {
+        "event_type": "motion_detected",
+        "timestamp": "2025-10-07T20:14:15.061924",
+        "gps_coordinates": {
+            "latitude": 28.562104,
+            "longitude": 77.136803
+        },
+        "filename": "20251007_201415_motion_detected.mp4"
     }
 ]
